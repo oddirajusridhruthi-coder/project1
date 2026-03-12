@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fries Menu</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    background:#fff5e6;
+}
+
+header{
+    background:#ff6600;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:30px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    box-shadow:0 0 10px gray;
+    text-align:center;
+    padding:15px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+h2{
+    text-align:center;
+    color:#ff6600;
+}
+
+.price{
+    color:green;
+    font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>🍟 Fries Paradise</h1>
+<p>All Types of Delicious French Fries</p>
+</header>
+
+<h2>Our Fries Menu</h2>
+
+<div class="container">
+
+<!-- NORMAL FRIES -->
+<div class="card">
+<img src= "normal.jpg">
+<h3>Normal Fries</h3>
+<p>Classic crispy fries</p>
+<p class="price">₹80</p>
+</div>
+
+<!-- SALTY FRIES -->
+<div class="card">
+<img src="salt.jpg">
+<h3>Salty Fries</h3>
+<p>Lightly salted crispy fries</p>
+<p class="price">₹90</p>
+</div>
+
+<!-- PERI PERI FRIES -->
+<div class="card">
+<img src="periperi.jpg">
+<h3>Peri Peri Fries</h3>
+<p>Spicy peri peri flavor</p>
+<p class="price">₹110</p>
+</div>
+
+<!-- GARLIC FRIES -->
+<div class="card">
+<img src="Garlic-Butter-Fries-4-scaled.webp">
+<h3>Garlic Fries</h3>
+<p>Tossed with garlic and parsley</p>
+<p class="price">₹120</p>
+</div>
+
+<!-- CHILI CHEESE FRIES -->
+<div class="card">
+<img src="k_Photo_Recipes_2023-01-instant-pot-chilli-cheese-fries_instant-pot-chilli-cheese-fries-163.jpeg">
+<h3>Chili Cheese Fries</h3>
+<p>Covered in chili and cheese sauce</p>
+<p class="price">₹140</p>
+</div>
+
+<!-- TRUFFLE FRIES -->
+<div class="card">
+<img src="Trufflefries11-1-scaled.webp">
+<h3>Truffle Fries</h3>
+<p>Premium truffle flavored fries</p>
+<p class="price">₹180</p>
+</div>
+
+<!-- CHILLY FRIES -->
+<div class="card">
+<img src="Red_Hot_Chili_Pepper_Fries.jpg">
+<h3>Chilly Fries</h3>
+<p>Hot and spicy chilly fries</p>
+<p class="price">₹120</p>
+</div>
+
+<!-- CHEESE FRIES -->
+<div class="card">
+<img src="Loaded-Cheese-Fries-SpendWithPennies-4.jpg">
+<h3>Cheese Fries</h3>
+<p>Loaded with melted cheese</p>
+<p class="price">₹130</p>
+</div>
+
+<!-- CRINKLE CUT FRIES -->
+<div class="card">
+<img src="crinkle.avif">
+<h3>Crinkle-cut Fries</h3>
+<p>Crispy ridged fries</p>
+<p class="price">₹100</p>
+</div>
+
+<!-- POTATO WEDGES -->
+<div class="card">
+<img src="instagram-In-Stream_Square___Baked-potato-wedges-4.jpg">
+<h3>Potato Wedges</h3>
+<p>Thick-cut seasoned potato wedges</p>
+<p class="price">₹110</p>
+</div>
+
+</div>
+
+</body>
+</html>
